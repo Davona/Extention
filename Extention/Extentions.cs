@@ -8,7 +8,7 @@ namespace Extention
 {
     public static class Extentions
     {
-        public static string FirstAndLast(this string letter)
+        public static string GetFirstAndLastValue(this string letter)
         {
             string word = "";
             if (letter.Length == 1)

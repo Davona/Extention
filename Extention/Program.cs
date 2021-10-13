@@ -11,7 +11,7 @@ namespace Extention
         static void Main(string[] args)
         {
             string word = "Barev";
-            Console.WriteLine(word.FirstAndLast());
+            Console.WriteLine(word.GetFirstAndLastValue());
             string newword = word.GetLettersOfOddIndex();
             Console.WriteLine(newword);
             List<int> list= new List<int>()
